@@ -1,0 +1,48 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Dofuu website",
+  "author": "Nguyen Trung Truc <trucb1203981@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookieparser": "^0.1.0",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.22.1",
+    "numeral": "^2.0.6",
+    "nuxt": "^1.0.0",
+    "nuxt-google-maps-module": "^1.5.5",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vee-validate": "^2.0.9",
+    "vue-i18n": "^7.6.0",
+    "vue2-google-maps": "^0.9.7",
+    "vuetify": "^1.0.17",
+    "vuetify-google-autocomplete": "^2.0.0-alpha.1.test.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3333"
+    }
+  }
+}
